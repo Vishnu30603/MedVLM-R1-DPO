@@ -36,7 +36,8 @@ This folder contains scripts and notebooks to prepare the datasets used for **Su
 
 3. **SFT Dataset Creation**  
    Each entry has:
-   json
+   
+   ```json
    {
      "instruction": "You are a medical assistant. Answer based on the image and question.",
      "input": "<question + options + reasoning instructions>",
@@ -45,7 +46,9 @@ This folder contains scripts and notebooks to prepare the datasets used for **Su
    }
 
  5. **DPO Dataset Creation**
-    '''json
+    Each entry has:
+   
+   ```json
    {
      "prompt": "<image>\n<question + options + reasoning instructions>",
      "image_path": "/path/to/image.png",
