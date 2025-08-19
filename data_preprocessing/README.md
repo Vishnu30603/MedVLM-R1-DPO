@@ -35,7 +35,7 @@ This folder contains scripts and notebooks to prepare the datasets used for **Su
    - Test X-Ray: 150 samples  
 
 3. **SFT Dataset Creation**
-   Each entry has the following structure:
+   - Each entry has the following structure:
    
    ```json
    {
@@ -46,7 +46,7 @@ This folder contains scripts and notebooks to prepare the datasets used for **Su
    }
 
  5. **DPO Dataset Creation**
-    Each entry has the following structure:
+    - Each entry has the following structure:
 
    ```json
    {
