@@ -36,7 +36,6 @@ This folder contains scripts and notebooks to prepare the datasets used for **Su
 
 3. **SFT Dataset Creation**
    - Each entry has the following structure:
-   
    ```json
    {
      "instruction": "You are a medical assistant. Answer based on the image and question.",
@@ -47,7 +46,6 @@ This folder contains scripts and notebooks to prepare the datasets used for **Su
 
  5. **DPO Dataset Creation**
     - Each entry has the following structure:
-
    ```json
    {
      "prompt": "<image>\n<question + options + reasoning instructions>",
