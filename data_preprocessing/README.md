@@ -34,8 +34,7 @@ This folder contains scripts and notebooks to prepare the datasets used for **Su
    - Test CT: 150 samples  
    - Test X-Ray: 150 samples  
 
-3. **SFT Dataset Creation**
-   - Each entry has the following structure:
+3. **SFT Dataset Strutrue**
    ```json
    {
      "instruction": "You are a medical assistant. Answer based on the image and question.",
@@ -44,8 +43,7 @@ This folder contains scripts and notebooks to prepare the datasets used for **Su
      "images": ["/path/to/image.png"]
    }
 
- 5. **DPO Dataset Creation**
-   - Each entry has the following structure:
+ 5. **DPO Dataset Strutrue**
    ```json
    {
      "prompt": "<image>\n<question + options + reasoning instructions>",
