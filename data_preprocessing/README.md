@@ -46,7 +46,7 @@ This folder contains scripts and notebooks to prepare the datasets used for **Su
 
  4. **DPO Dataset Creation**
     Each entry has:
-   ```json
+    ```json
    {
      "prompt": "<image>\n<question + options + reasoning instructions>",
      "image_path": "/path/to/image.png",
