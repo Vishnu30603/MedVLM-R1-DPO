@@ -42,7 +42,7 @@ This folder contains scripts and notebooks to prepare the datasets used for **Su
      "input": "<question + options + reasoning instructions>",
      "output": "<think>...generic reasoning...</think>\n<answer>X</answer>",
      "images": ["/path/to/image.png"]
-   }
+   }```
 
  4. **DPO Dataset Creation**
     ```json
@@ -51,4 +51,4 @@ This folder contains scripts and notebooks to prepare the datasets used for **Su
      "image_path": "/path/to/image.png",
      "chosen": "<CoT reasoning with correct <answer>>",
      "rejected": "<Generic short reasoning + correct <answer>>"
-   }
+   }```
