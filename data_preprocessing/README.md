@@ -43,8 +43,8 @@ This folder contains scripts and notebooks to prepare the datasets used for **Su
      "images": ["/path/to/image.png"]
    }
 
- 5. **DPO Dataset Strutrue**
-   ```json
+ 4. **DPO Dataset Strutrue**
+    ```json
    {
      "prompt": "<image>\n<question + options + reasoning instructions>",
      "image_path": "/path/to/image.png",
