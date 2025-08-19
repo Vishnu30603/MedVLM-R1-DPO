@@ -1,13 +1,13 @@
 #!/bin/bash
-# DPO Training Script for MedVLM-R1 replication
+# DPO Training Script using LLaMA-Factory
 # Usage: bash scripts/dpo_train.sh
 
-# ✅ Paths (CHANGE these according to your setup)
+# Paths (CHANGE these according to your setup)
 DATA_DIR="data"
 OUTPUT_DIR="saves/Qwen2-VL-2B-Instruct/lora/dpo_sig5"
 ADAPTER_PATH="saves/Qwen2-VL-2B-Instruct/lora/sft/"   # <-- must exist (SFT checkpoint)
 
-# ✅ Run training
+# Run training
 llamafactory-cli train \
     --stage dpo \
     --do_train True \
